@@ -15,16 +15,22 @@ function Weekly() {
           <div className="flex justify-end">
             <img src={work} alt="/" className="w-5 h-6 mx-5 object-fit" />
           </div>
-          <div className="flex justify-evenly bg-Darkblue  rounded-md">
-            <div className="flex flex-col my-5">
-              <p>work</p>
-              <p>32hrs</p>
+          <div className="flex justify-evenly bg-Darkblue hover:bg-Blue  rounded-md">
+            <div className="flex flex-col my-5 md:ml-5">
+              <p className="font-semibold">work</p>
+              <p className="font-medium text-3xl">32hrs</p>
             </div>
             <div className="flex flex-col ml-4  my-5">
               <div className="flex justify-end">
-                <img src={ellipse} alt="/" className="h-1 w-5" />
+                <img
+                  src={ellipse}
+                  alt="/"
+                  className="h-1 mx-2 w-5 shadow-sm hover:shadow-white hover:cursor-pointer"
+                />
               </div>
-              <p className="pt-4 text-sm">last week - 36hrs</p>
+              <p className="pt-8 text-xs md:pt-20 md:-ml-[90%] text-Desaturatedblue">
+                last week - 36hrs
+              </p>
             </div>
           </div>
         </div>
@@ -32,16 +38,22 @@ function Weekly() {
           <div className="flex justify-end">
             <img src={play} alt="/" className="w-5 h-6 mx-5 object-fit" />
           </div>
-          <div className="flex justify-evenly bg-Darkblue  rounded-md">
-            <div className="flex flex-col my-5">
-              <p>play</p>
-              <p>10hr</p>
+          <div className="flex justify-evenly bg-Darkblue hover:bg-Blue  rounded-md">
+            <div className="flex flex-col my-5 md:ml-5">
+              <p className="font-semibold">play</p>
+              <p className="font-medium text-3xl">10hr</p>
             </div>
             <div className="flex flex-col ml-4  my-5">
               <div className="flex justify-end">
-                <img src={ellipse} alt="/" className="h-1 w-5" />
+                <img
+                  src={ellipse}
+                  alt="/"
+                  className="h-1 mx-2 w-5 shadow-sm hover:shadow-white hover:cursor-pointer"
+                />
               </div>
-              <p className="pt-4 text-sm">last week - 8hrs</p>
+              <p className="pt-8 text-xs md:pt-20 md:-ml-[90%] text-Desaturatedblue">
+                last week - 8hrs
+              </p>
             </div>
           </div>
         </div>
@@ -49,16 +61,22 @@ function Weekly() {
           <div className="flex justify-end">
             <img src={study} alt="/" className="w-5 h-6 mx-5 object-fit" />
           </div>
-          <div className="flex justify-evenly bg-Darkblue  rounded-md">
-            <div className="flex flex-col my-5">
-              <p>study</p>
-              <p>4hrs</p>
+          <div className="flex justify-evenly bg-Darkblue hover:bg-Blue  rounded-md">
+            <div className="flex flex-col my-5 md:ml-5">
+              <p className="font-semibold">study</p>
+              <p className="font-medium text-3xl">4hrs</p>
             </div>
             <div className="flex flex-col ml-4  my-5">
               <div className="flex justify-end">
-                <img src={ellipse} alt="/" className="h-1 w-5" />
+                <img
+                  src={ellipse}
+                  alt="/"
+                  className="h-1 mx-2 w-5 shadow-sm hover:shadow-white hover:cursor-pointer"
+                />
               </div>
-              <p className="pt-4 text-sm">last week - 7hrs</p>
+              <p className="pt-8 text-xs md:pt-20 md:-ml-[90%] text-Desaturatedblue">
+                last week - 7hrs
+              </p>
             </div>
           </div>
         </div>
@@ -68,16 +86,22 @@ function Weekly() {
           <div className="flex justify-end">
             <img src={exercise} alt="/" className="w-5 h-6 mx-5 object-fit" />
           </div>
-          <div className="flex justify-evenly bg-Darkblue  rounded-md">
-            <div className="flex flex-col my-5">
-              <p>Exercise</p>
-              <p>4hrs</p>
+          <div className="flex justify-evenly bg-Darkblue hover:bg-Blue  rounded-md">
+            <div className="flex flex-col my-5 md:ml-5">
+              <p className="font-semibold">Exercise</p>
+              <p className="font-medium text-3xl">4hrs</p>
             </div>
             <div className="flex flex-col ml-4  my-5">
               <div className="flex justify-end">
-                <img src={ellipse} alt="/" className="h-1 w-5" />
+                <img
+                  src={ellipse}
+                  alt="/"
+                  className="h-1 mx-2 w-5 shadow-sm hover:shadow-white hover:cursor-pointer"
+                />
               </div>
-              <p className="pt-4 text-sm">last week - 5hrs</p>
+              <p className="pt-8 text-xs md:pt-20 md:-ml-[90%] text-Desaturatedblue">
+                last week - 5hrs
+              </p>
             </div>
           </div>
         </div>
@@ -85,16 +109,22 @@ function Weekly() {
           <div className="flex justify-end">
             <img src={social} alt="/" className="w-5 h-6 mx-5 object-fit" />
           </div>
-          <div className="flex justify-evenly bg-Darkblue  rounded-md">
-            <div className="flex flex-col my-5">
-              <p>social</p>
-              <p>5hrs</p>
+          <div className="flex justify-evenly bg-Darkblue hover:bg-Blue  rounded-md">
+            <div className="flex flex-col my-5 md:ml-5">
+              <p className="font-semibold">social</p>
+              <p className="font-medium text-3xl">5hrs</p>
             </div>
             <div className="flex flex-col ml-4  my-5">
               <div className="flex justify-end">
-                <img src={ellipse} alt="/" className="h-1 w-5" />
+                <img
+                  src={ellipse}
+                  alt="/"
+                  className="h-1 mx-2 w-5 shadow-sm hover:shadow-white hover:cursor-pointer"
+                />
               </div>
-              <p className="pt-4 text-sm">last week - 10hrs</p>
+              <p className="pt-8 text-xs md:pt-20 md:-ml-[90%] text-Desaturatedblue">
+                last week - 10hrs
+              </p>
             </div>
           </div>
         </div>
@@ -102,16 +132,22 @@ function Weekly() {
           <div className="flex justify-end">
             <img src={self} alt="/" className="w-5 h-6 mx-5 object-fit" />
           </div>
-          <div className="flex justify-evenly bg-Darkblue  rounded-md">
-            <div className="flex flex-col my-5">
-              <p>self care</p>
-              <p>2hrs</p>
+          <div className="flex justify-evenly bg-Darkblue hover:bg-Blue  rounded-md">
+            <div className="flex flex-col my-5 md:ml-5">
+              <p className="font-semibold">self care</p>
+              <p className="font-medium text-3xl">2hrs</p>
             </div>
             <div className="flex flex-col ml-4  my-5">
               <div className="flex justify-end">
-                <img src={ellipse} alt="/" className="h-1 w-5" />
+                <img
+                  src={ellipse}
+                  alt="/"
+                  className="h-1 mx-2 w-5 shadow-sm hover:shadow-white hover:cursor-pointer"
+                />
               </div>
-              <p className="pt-4 text-sm">last week - 2hrs</p>
+              <p className="pt-8 text-xs md:pt-20 md:-ml-[90%] text-Desaturatedblue">
+                last week - 2hrs
+              </p>
             </div>
           </div>
         </div>
