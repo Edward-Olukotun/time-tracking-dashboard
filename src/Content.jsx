@@ -26,8 +26,8 @@ function Content() {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row h-fit">
-        <div className="bg-Darkblue rounded-md my-5">
+      <div className="flex flex-col md:flex-row h-fit my-5 md:my-40">
+        <div className="bg-Darkblue rounded-md ">
           <div className="bg-Blue  flex justify-center rounded-md w-fit p-8 md:flex-col">
             <div className="rounded-3xl border-2 border-white w-10 h-11 mx-2">
               <img src={pic} alt="/" className="w-10 h-10 " />

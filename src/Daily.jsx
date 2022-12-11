@@ -11,7 +11,7 @@ function Daily() {
   return (
     <div className="text-white">
       <div className="md:flex md:my-5">
-        <div className="bg-Lightred flex flex-col rounded-md md:my-2   md:mx-5 md:w-40">
+        <div className="bg-Lightred flex flex-col my-4 rounded-md    md:mx-5 md:w-48">
           <div className="flex justify-end">
             <img src={work} alt="/" className="w-5 h-6 mx-5  object-fit" />
           </div>
@@ -32,7 +32,7 @@ function Daily() {
             </div>
           </div>
         </div>
-        <div className="bg-Softblue flex flex-col rounded-md mt-4 md:mx-5 md:w-40">
+        <div className="bg-Softblue flex flex-col my-4 rounded-md    md:mx-5 md:w-48">
           <div className="flex justify-end">
             <img src={play} alt="/" className="w-5 h-6 mx-5 object-fit" />
           </div>
@@ -49,7 +49,7 @@ function Daily() {
             </div>
           </div>
         </div>
-        <div className="bg-Light-red flex flex-col rounded-md mt-4   md:mx-5 md:w-40">
+        <div className="bg-Light-red flex flex-col my-4 rounded-md    md:mx-5 md:w-48">
           <div className="flex justify-end">
             <img src={study} alt="/" className="w-5 h-6 mx-5 object-fit" />
           </div>
@@ -69,11 +69,11 @@ function Daily() {
       </div>
 
       <div className="md:flex md:my-5">
-        <div className="bg-Limegreen flex flex-col  my-4 rounded-md md:my-2   md:mx-5 md:w-40">
+        <div className="bg-Limegreen flex flex-col my-4 rounded-md    md:mx-5 md:w-48">
           <div className="flex justify-end">
             <img src={exercise} alt="/" className="w-5 h-6 mx-5 object-fit" />
           </div>
-          <div className="flex justify-evenly bg-Darkblue  rounded-md">
+          <div className="flex justify-evenly  bg-Darkblue  rounded-md">
             <div className="flex flex-col my-5">
               <p>exercise</p>
               <p>1hr</p>
@@ -86,9 +86,9 @@ function Daily() {
             </div>
           </div>
         </div>
-        <div className="bg-Violet flex flex-col rounded-md my-4    md:mx-5 md:w-40">
-          <div className="flex justify-end">
-            <img src={social} alt="/" className="w-5 h-6 mx-5 object-fit" />
+        <div className="bg-Violet flex flex-col my-4 rounded-md    md:mx-5 md:w-48">
+          <div className="flex justify-end ">
+            <img src={social} alt="/" className="w-5 h-6 mx-5  object-fit" />
           </div>
           <div className="flex justify-evenly  bg-Darkblue  rounded-md">
             <div className="flex flex-col my-5">
@@ -103,7 +103,7 @@ function Daily() {
             </div>
           </div>
         </div>
-        <div className="bg-Softorange flex flex-col rounded-md my-4 md:mx-5 md:w-40">
+        <div className="bg-Softorange flex flex-col my-4 rounded-md    md:mx-5 md:w-48">
           <div className="flex justify-end">
             <img src={self} alt="/" className="w-5 h-6 mx-5 object-fit" />
           </div>
@@ -114,8 +114,6 @@ function Daily() {
             </div>
             <div className="flex flex-col ml-4  my-5">
               <div className="flex justify-end">
-                {" "}
-                hover:bg-white
                 <img src={ellipse} alt="/" className="h-1 w-5 hover:bg-white" />
               </div>
               <p className="pt-4 text-sm">yesterday - 1hr</p>
